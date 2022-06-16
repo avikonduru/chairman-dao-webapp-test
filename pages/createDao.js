@@ -23,7 +23,7 @@ import {
   Progress,
 } from '@chakra-ui/react'
 
-const createDao = () => {
+const CreateDao = () => {
   const router = useRouter()
   const { guildID } = router.query
 
@@ -374,4 +374,4 @@ const createDao = () => {
   )
 }
 
-export default createDao
+export default CreateDao
